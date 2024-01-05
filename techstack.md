@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 carlesloriente/terraform-up-and-running-code is built on the following main stack:
+
 - [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Golang](http://golang.org/) – Languages
@@ -14,11 +15,13 @@ carlesloriente/terraform-up-and-running-code is built on the following main stac
 - [OpenCensus](https://opencensus.io/) – Monitoring Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 carlesloriente/terraform-up-and-running-code is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/694/Cloud_Storage.png' alt='Google Cloud Storage'/> [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1005/O6AczwfV_400x400.png' alt='Golang'/> [Golang](http://golang.org/) – Languages
@@ -31,14 +34,15 @@ carlesloriente/terraform-up-and-running-code is built on the following main stac
 - <img width='25' height='25' src='https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg' alt='OpenCensus'/> [OpenCensus](https://opencensus.io/) – Monitoring Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [carlesloriente/terraform-up-and-running-code](https://github.com/carlesloriente/terraform-up-and-running-code)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|11/13/23 <br/>Report generated|
+|11<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -158,4 +162,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
