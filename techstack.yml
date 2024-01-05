@@ -1,7 +1,8 @@
 repo_name: carlesloriente/terraform-up-and-running-code
 report_id: 2b1215cd4c27d6da0720b9114d3e316d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T03:05:25+00:00'
+timestamp: '2024-01-05T08:46:54+00:00'
 requested_by: brikis98
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code
   detection_source: Repo Metadata
 - name: Protobuf
   description: Google's data interchange format
@@ -36,7 +39,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: gRPC
@@ -48,7 +52,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Remote Procedure Call (RPC)
   image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: Google Cloud Storage
@@ -59,7 +64,8 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: MySQL
@@ -70,7 +76,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: Git
@@ -81,6 +88,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code
   detection_source: Repo Metadata
 - name: Kubernetes
   description: Manage a cluster of Linux containers as a single system to accelerate
@@ -92,7 +100,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: OpenCensus
@@ -104,7 +113,8 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: Testify
@@ -117,7 +127,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Go Testing
   image_url: https://img.stackshare.io/service/8695/stretchr.png
-  detection_source: code/terraform/10-terraform-team/test/go.mod
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code/blob/master/code/terraform/09-testing-terraform-code/test/go.mod
+  detection_source: code/terraform/09-testing-terraform-code/test/go.mod
   last_updated_by: Yevgeniy Brikman
   last_updated_on: 2022-02-24 18:33:52.000000000 Z
 - name: Shell
@@ -129,4 +140,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/carlesloriente/terraform-up-and-running-code
   detection_source: Repo Metadata
