@@ -9,16 +9,19 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "terraform-state-813271427490-multiaccount-bucket"
-    key            = "813271427490/eu-west-1/data-store/mysql/terraform.tfstate"
+    bucket         = "terraform-state-444469924026-multiaccount-bucket"
+    key            = "444469924026/eu-west-1/data-store/mysql/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "terraform-813271427490-data-store-mysql-state-locking"
+    dynamodb_table = "terraform-444469924026-data-store-mysql-state-locking"
     encrypt        = true
   }
 }
 
 provider "aws" {
   region = "eu-west-1"
+  # assume_role {
+  #   role_arn = "arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption"
+  # }
 }
 
 module "mysql" {
