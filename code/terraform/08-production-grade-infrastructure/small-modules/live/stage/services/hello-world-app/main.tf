@@ -17,13 +17,13 @@ terraform {
 }
 
 
-  provider "aws" {
-    region = "eu-west-1"
-    # assume_role {
-    #   role_arn = var.arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption
-    # }
-  }
+provider "aws" {
+  region = "eu-west-1"
+  # assume_role {
+  #   role_arn = var.arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption
+  # }
 }
+
 
 module "hello_world_app" {
 
