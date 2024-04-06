@@ -9,19 +9,19 @@ terraform {
   }
 
   backend "s3" {
-    # This backend configuration is filled in automatically at test time by Terratest. If you wish to run this example
-    # manually, uncomment and fill in the config below.
-
-    # bucket         = "<YOUR S3 BUCKET>"
-    # key            = "<SOME PATH>/terraform.tfstate"
-    # region         = "us-east-2"
-    # dynamodb_table = "<YOUR DYNAMODB TABLE>"
-    # encrypt        = true
+    bucket         = "terraform-state-444469924026-multiaccount-bucket"
+    key            = "444469924026/eu-west-1/data-store/mysql/terraform.tfstate"
+    region         = "eu-west-1"
+    dynamodb_table = "terraform-444469924026-data-store-mysql-state-locking"
+    encrypt        = true
   }
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "eu-west-1"
+  # assume_role {
+  #   role_arn = "arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption"
+  # }
 }
 
 module "mysql" {
