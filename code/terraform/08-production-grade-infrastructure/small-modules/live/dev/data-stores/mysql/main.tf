@@ -19,10 +19,9 @@ terraform {
 
 provider "aws" {
   region = "eu-west-1"
-
-    assume_role {
-    role_arn = var.arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption
-  }
+  # assume_role {
+  #   role_arn = "arn:aws:iam::444469924026:role/admin-access-for-emrah-assumption"
+  # }
 }
 
 module "mysql" {

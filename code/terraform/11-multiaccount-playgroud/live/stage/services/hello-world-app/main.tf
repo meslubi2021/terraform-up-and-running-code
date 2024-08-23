@@ -7,10 +7,18 @@ terraform {
       version = "~> 4.0"
     }
   }
+  
+  backend "s3" {
+    bucket         = "terraform-state-813271427490-multiaccount-bucket"
+    key            = "813271427490/eu-west-1/services/hello-world-app/terraform.tfstate"
+    region         = "eu-west-1"
+    dynamodb_table = "terraform-813271427490-services-hello-world-state-locking"
+    encrypt        = true
+  }
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "eu-west-1"
 }
 
 module "hello_world_app" {

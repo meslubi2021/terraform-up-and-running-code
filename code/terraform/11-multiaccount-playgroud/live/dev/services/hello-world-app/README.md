@@ -1,4 +1,4 @@
-# Hello-world app example (prod environment)
+# Hello-world app example (staging environment)
 
 This folder contains an example [Terraform](https://www.terraform.io/) configuration that deploys a simple "Hello, 
 World" application across a cluster of web servers (using [EC2](https://aws.amazon.com/ec2/) and 
